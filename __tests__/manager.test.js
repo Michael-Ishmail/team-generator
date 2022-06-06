@@ -1,6 +1,4 @@
-const { expect } = require('expect')
-const { test } = require('picomatch')
-const Manager = require('../lib/Manager.js')
+const Manager = require('../lib/Manager')
 
 test('office test', () => {
     const testOffice = 10

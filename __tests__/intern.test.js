@@ -1,4 +1,4 @@
-const Engineer = require('../lib/Intern.js')
+const Intern = require('../lib/Intern')
 
 test('Create school', () => {
     const testSchool = 'school'
