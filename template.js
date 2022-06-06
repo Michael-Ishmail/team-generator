@@ -7,9 +7,9 @@ const generateTeam = team => {
           <div class="font-bold text-xl mb-2">${manager.getRole()}</div>
           <div class="text-gray-700 text-base">
           <ul>
-          <li>${manager.getId()}</li>
-          <li>${manager.getEmail()}</li>
-          <li>${manager.getOfficeNumber()}</li>
+          <li>Managers ID: ${manager.getId()}</li>
+          <li>Managers email: ${manager.getEmail()}</li>
+          <li>Managers office number: ${manager.getOfficeNumber()}</li>
           <ul>
           </div>
         </div>
@@ -27,9 +27,9 @@ const generateTeam = team => {
           <div class="font-bold text-xl mb-2">${engineer.getRole()}</div>
           <div class="text-gray-700 text-base">
           <ul>
-          <li>${engineer.getId()}</li>
-          <li>${engineer.getEmail()}</li>
-          <li>${engineer.getOfficeNumber()}</li>
+          <li>Engineer's ID: ${engineer.getId()}</li>
+          <li>Engineer's email: ${engineer.getEmail()}</li>
+          <li>Engineers GitHub: ${engineer.getGithub()}</li>
           <ul>
           </div>
         </div>
@@ -47,9 +47,9 @@ const generateTeam = team => {
           <div class="font-bold text-xl mb-2">${intern.getRole()}</div>
           <div class="text-gray-700 text-base">
           <ul>
-          <li>${intern.getId()}</li>
-          <li>${intern.getEmail()}</li>
-          <li>${intern.getOfficeNumber()}</li>
+          <li>Interns ID: ${intern.getId()}</li>
+          <li>Interns email: ${intern.getEmail()}</li>
+          <li>Interns school: ${intern.getSchool()}</li>
           <ul>
           </div>
         </div>
